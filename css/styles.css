@@ -591,6 +591,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-form-field:nth-child(4) {
+  margin-bottom: 16px;
+}
+
 .modal-form-input-desc {
   display: block;
   margin-bottom: 4px;
@@ -637,6 +641,7 @@ img {
 .modal-form-message {
   height: 120px;
   width: 100%;
+  display: block;
   padding: 8px 16px;
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -678,6 +683,9 @@ img {
 
 .modal-form-check:focus + .modal-form-check-desc::before {
   outline: 1.25px solid var(--accent);
+  background-color: var(--accent);
+  background-image: url(/images/check-mark.svg);
+  border: none;
 }
 
 .modal-form-check-desc {
@@ -689,6 +697,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #757575;
+}
+
+.privacy-policy {
+  line-height: 1.33;
+  text-decoration-line: underline;
+  color: var(--secondary-bg-color);
 }
 
 .modal-form-submit {
